@@ -1,0 +1,13 @@
+{
+    "name": "-heroku",
+    "description": "deploy to heroku",
+    "keywords": [""],
+    "env": {
+        "PASSWORD": {
+            "description": "Trojan Password",
+            "value": "99c6b252-d6b7-4478-977e-5f7c4e885160"        
+        }
+    },
+    "repository": "https://github.com/mkwee/tojan",
+    "stack": "container"
+}
