@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  vle:
+  tro:
     runs-on: ubuntu-latest
 
     steps:
@@ -53,4 +53,4 @@ jobs:
         with:
           heroku_api_key: ${{ secrets.KEY }}
           heroku_app_name: ${{ secrets.APP }}
-          heroku_email: ${{ secrets.HEROKU_EMAIL }}
+          heroku_email: ${{ secrets.MAIL }}
